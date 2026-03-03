@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    min-height:100vh;
+    background: #3b0e4c;
+    display:flex;
+    justify-content:center;
+    padding:40px 20px;
+}
+
+.contenedor{
+    max-width:900px;
+    background:rgb(32, 9, 45);
+    backdrop-filter:blur(10px);
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(251, 113, 244, 0.742);
+
+}
+
+h1{
+    text-align:center;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400px;
+    font-style: normal;
+    color:#cc1aae;
+
+    
+}
+li{
+    color: #ddd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    color:#c77dff;
+    margin-top:30px;
+    margin-bottom:15px;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+    color:#c63fd0;
+    margin-bottom:10px;
+    font-size: 25px;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    margin-bottom:15px;
+    line-height:1.6;
+    color:#ddd;
+    font-style:italic;
+    font-size: 18px;
+}
+
+hr{
+    margin:30px 0;
+    border:none;
+    height:1px;
+    background:linear-gradient(to right,transparent,#c77dff,transparent);
+}
+
+.card{
+    background:rgba(255, 255, 255, 0.07);
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:25px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 7px rgba(251, 113, 244, 0.742);
+}
+
+img{
+    width:100%;
+    max-width:400px;
+    border-radius:15px;
+    margin-top:10px;
+    box-shadow:0 0 20px rgba(31, 2, 47, 0.5);
+    border: 2px solid rgb(37, 10, 52);
+     }
+
+ul{
+    margin-left:20px;
+    margin-bottom:15px;
+}
+
+
+.frase{
+    text-align:center;
+    font-style:italic;
+    margin-top:20px;
+    color:#ffccff;
+}
+
+.boton{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    border-radius:30px;
+    background:linear-gradient(45deg,#c838ab,#2f086a);
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.boton:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 8px rgba(251, 113, 244, 0.742);
+}
+
+.footer{
+    text-align:center;
+    margin-top:30px;
+    font-size:0.9rem;
+    color:#aaa;
+}
+
+.vinculo{
+    color: #f58ee7;
+    transition: transform 0.3s ease; 
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.vinculo:hover{
+    color: #c63fd0;
+}
+
+.vinculo2{
+    color: #ddd;
+    font-size: 18px;
+    text-decoration: none;
+    transition: transform 0.3s ease; 
+    display: inline-block;
+
+}
+.vinculo2:hover{
+    transform:scale(1.02);
+    color: #c63fd0;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Rock Gótico</title>
+    <link rel="stylesheet" href="SEGUNDA.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<section class="formulario">
+
+    <h1> Registro Rock Gótico </h1>
+
+    <form id="rockForm">
+
+        <div class="bloque">
+            <h2>💜 Datos Oscuros</h2>
+
+            <div class="grupo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Tu apodo rockero" required>
+            </div>
+
+            <div class="grupo">
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" min="10" max="99" required>
+            </div>
+
+            <div class="grupo">
+                <label for="correo">Email</label>
+                <input type="email" id="correo"  required>
+            </div>
+        </div>
+
+        <div class="bloque">
+            <h2>💜 Tus Gustos Rockeros</h2>
+
+            <div class="grupo">
+                <label for="banda">¿Tu banda favorita?</label>
+                <select class="seleccionar" required>
+                    <option value=""></option>
+                    <option>Nirvana</option>
+                    <option>Caifanes</option>
+                    <option>Jaguares</option>
+                    <option>Soda Stereo</option>
+                    <option>La Barranca</option>
+                    <option>Pearl Jam</option>
+                    <option>Pixies</option>
+                    <option>Alice in Chains</option>
+                    <option>Otra</option>
+                </select>
+            </div>
+
+            <div class="grupo">
+                <label for="cantante">Cantante favorito</label>
+                <input type="text" id="cantante">
+            </div>
+
+            <div class="grupo">
+                <label for="album">Álbum que te cambió la vida</label>
+                <input type="text" id="album">
+            </div>
+
+            <div class="grupo">
+                <label for="cancion">Canción gótica/rock preferida</label>
+                <input type="text" id="cancion">
+            </div>
+        </div>
+
+        <button id="guardar" type="submit" class="guarda">
+             Entrar al Lado Oscuro 
+        </button>
+
+        <a href="TERCERA.HTML" class="quiz-link">🎮 quiz rockero</a>
+
+    </form>
+
+    <div id="resultado"></div>
+    <script src="SEGUNDA.JS"></script>
+
+</section>
+
+</body>
+</html>

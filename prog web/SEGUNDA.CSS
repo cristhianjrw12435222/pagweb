@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background: #3b0e4c;
+    display:flex;
+    justify-content:center;
+    padding:40px 20px;
+}
+
+.formulario{
+    width:100%;
+    max-width:700px;
+    background:rgb(32, 9, 45);
+    backdrop-filter:blur(15px);
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(251, 113, 244, 0.742);
+}
+
+h1{
+    text-align:center;
+    color:#cd21cd;
+    margin-bottom:30px;
+    font-family:"Rock Salt";
+    
+
+}
+
+h2{
+    color:#c77dff;
+    margin-bottom:20px;
+    font-family:"Rock Salt";
+}
+
+
+.bloque{
+    margin-bottom:30px;
+    padding:20px;
+    background:rgba(255,255,255,0.03);
+    border-radius:15px;
+    box-shadow: 0 0 5px violet;
+}
+
+.grupo{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:15px;
+}
+
+label{
+    margin-bottom:5px;
+    color:#ddd;
+    font-size:0.9rem;
+}
+
+input, select{
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    background:rgb(32, 9, 45);
+    color:white;
+    outline:none;
+    transition:0.3s;
+}
+
+input:focus, select:focus{
+    box-shadow:0 0 7px rgba(251, 113, 244, 0.742);
+    transform:scale(1.01);
+}
+
+.guarda{
+    width:100%;
+    padding:15px    ;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(45deg,#c838ab,#2f086a);
+    color:white;
+    font-weight:bold;
+    font-size:1rem;
+    cursor:pointer;
+    transition:0.3s;
+    margin-top:10px;
+}
+
+.guarda:hover{
+    transform:scale(1.01);
+    box-shadow:0 0 4px rgba(251, 113, 244, 0.742);
+}
+
+.quiz-link{
+    display:block;
+    text-align:center;
+    margin-top:20px;
+    text-decoration:none;
+    color: #f58ee7;
+    transition:0.3s;
+}
+
+.quiz-link:hover{
+    color: #c63fd0;
+}
+
+label{
+     font-family: cursive;
+     padding: 8px;
+}
+
+.seleccionar{
+
+    outline:none;
+    cursor:pointer;
+}
